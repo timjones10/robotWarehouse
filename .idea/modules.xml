@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RobotWarehouse.iml" filepath="$PROJECT_DIR$/.idea/modules/RobotWarehouse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RobotWarehouse_main.iml" filepath="$PROJECT_DIR$/.idea/modules/RobotWarehouse_main.iml" group="RobotWarehouse" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RobotWarehouse_test.iml" filepath="$PROJECT_DIR$/.idea/modules/RobotWarehouse_test.iml" group="RobotWarehouse" />
+    </modules>
+  </component>
+</project>
