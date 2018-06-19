@@ -15,6 +15,9 @@ public class Robot {
     }
 
     public void moveRobot(String directionCommand) {
+        if (directionCommand.length() > 1){
+            stringSplitter(directionCommand);
+        }
         location = updateLocation(directionCommand);
     }
 
@@ -29,8 +32,17 @@ public class Robot {
             break;
             case("W"): currentLocation[1] = currentLocation[1] - 1;
             break;
+            case(" "):
+                break;
         }
         return currentLocation;
+    }
+
+    private void stringSplitter(String longDirectionCommand) {
+        String[] commandArray = longDirectionCommand.split(("(?!^)"));
+        for (int i = 0; i < commandArray.length; i++) {
+            moveRobot(commandArray[i]);
+        }
     }
 }
 
